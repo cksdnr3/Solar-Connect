@@ -58,7 +58,8 @@
     npm start
 ```
 [npm download](https://nodejs.org/en/)
----
+
+----
 
 ## 배포
 
@@ -66,6 +67,7 @@ netlify 를 이용하여 배포
 
 [solar - connect ](https://dazzling-pike-eca1ac.netlify.app/) https://dazzling-pike-eca1ac.netlify.app/
 
+---
 
 ## 시연 
 
@@ -75,6 +77,7 @@ netlify 를 이용하여 배포
 예외 처리
 ![예외](https://user-images.githubusercontent.com/70367265/129695092-cfcec4e0-1251-4f99-b7b0-92639284eb6a.gif)
 
+---
 
 ## 참조
 [기본 정렬 알고리즘](https://velog.io/@young_mason/Algorithm-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Sorting-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Basic%ED%8E%B8)
