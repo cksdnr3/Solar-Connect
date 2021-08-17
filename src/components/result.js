@@ -1,12 +1,20 @@
 import React from 'react'
+import styled from 'styled-components';
 
-const Result = ({arr}) => {
-  console.log(arr)
+const Result = ({ arr }) => {
+  console.log(arr);
   return (
-    <div style={{border:1+'px solid black',height:30+'px'}}>
+    <Division>
       {arr.join(', ')}
-    </div>
+    </Division>
   )
 }
+
+const Division = styled.div`
+  border: 1px solid gray;
+  min-height: 44px;
+  height: auto;
+  line-height: 43px;
+`
 
 export default Result
