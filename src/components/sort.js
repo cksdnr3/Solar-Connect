@@ -13,7 +13,7 @@ const Sort = () => {
       setTimeout(() => {
           setReversedArr(reverse(arr));
       }, 3000);
-      setReversedArr([]);
+      setReversedArr(null);
   }
 
   return (

@@ -5,19 +5,21 @@ const TIMER_BY_LANG = {
   'ko' : koTimeFormat,
   'en' : enTimeFormat
 }
+
 const Timer = ({lang}) => {
   const time = useRef(null)
   const timeFormat = TIMER_BY_LANG[lang]
   useEffect(()=> {
-    if (time) {
-      setInterval(()=>{
-        time.current.innerText = timeFormat()
-      },1000)
+    let timerId = setInterval(()=>{
+      time.current.innerText = timeFormat()
+    },1000)
+    return () => {
+      clearInterval(timerId)
     }
-  },[time])
+  })
   return (
     <div >
-      <h3 ref={time}></h3>
+      <h3 ref={time}>{timeFormat()}</h3>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react'
+import React, { useState } from 'react'
 import {quickSort} from "../utils/sort";
 import styled from 'styled-components';
 
@@ -6,21 +6,23 @@ const Input = ({setArr, handleTimeout}) => {
   const [input, setInput] = useState('')
   const handlerClick = (e) => {
     e.preventDefault()
+    setArr(null)
     const arr = input.split(',')
+    const error = []
     const numArr = arr.reduce((prev,val) => {
-      console.log(val)
       if (val.trim()){
         let num = Number(val)
         if (!isNaN(num)){
           prev.push(num)
         } else {
-          alert("숫자를 입력해주세요.")
-          return [];
+          error.push(val)
         }
       }
       return prev
     },[])
-    setInput('');
+    if (error.length){
+      alert(`${error.join(', ')} 숫자 형식이 아니라 제외되었습니다.`)
+    }
     setArr(quickSort(numArr));
     handleTimeout(numArr);
   }
