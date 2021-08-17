@@ -64,11 +64,12 @@
 ![정상작동](https://user-images.githubusercontent.com/70367265/129677940-7f0b2807-8c7a-4376-a0e6-88d56f1867e0.gif)
 
 예외 처리
-![예외 처리](https://user-images.githubusercontent.com/70367265/129678223-c8de2648-e547-458f-8750-e8a73df0d50c.gif)
+![예외](https://user-images.githubusercontent.com/70367265/129695092-cfcec4e0-1251-4f99-b7b0-92639284eb6a.gif)
+
 
 ## 참조
-link [기본 정렬 알고리즘](https://velog.io/@young_mason/Algorithm-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Sorting-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Basic%ED%8E%B8)
+[기본 정렬 알고리즘](https://velog.io/@young_mason/Algorithm-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Sorting-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-Basic%ED%8E%B8)
 
-link [퀵정렬](https://www.zerocho.com/category/Algorithm/post/57f72d415141fc5fe4f4ca8b)
+[퀵정렬](https://www.zerocho.com/category/Algorithm/post/57f72d415141fc5fe4f4ca8b)
 
-link [퀵 정렬 구현](https://im-developer.tistory.com/135)
+[퀵 정렬 구현](https://im-developer.tistory.com/135)
