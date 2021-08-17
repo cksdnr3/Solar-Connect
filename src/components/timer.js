@@ -17,7 +17,7 @@ const Timer = ({lang}) => {
   },[time])
   return (
     <div >
-      <span ref={time}></span>
+      <h3 ref={time}></h3>
     </div>
   )
 }

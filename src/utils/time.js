@@ -28,5 +28,5 @@ export const koTimeFormat = () => {
 export const enTimeFormat = () => {
   const date = getTime()
   const [ Y, M, D, h, m, s,d ] = getFormat(date)
-  return `${ENGLISH_DAY[d]} ${ENGLISH_MONTH[M-1]} ${D}, ${Y} ${h}:${m}:${s}`
+  return `${ENGLISH_DAY[d]} ${ENGLISH_MONTH[M-1]} ${D}, ${Y} ${h} : ${m} : ${s}`
 }

@@ -33,6 +33,6 @@ export const quickSort = (arr, left = 0, right = arr.length - 1) => {
   return arr
 }
 
-export const reversed = (arr) => {
+export const reverse = (arr) => {
   return arr.map((_,i) => arr[arr.length-1-i])
 }
