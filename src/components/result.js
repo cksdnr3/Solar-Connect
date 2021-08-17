@@ -12,7 +12,8 @@ const Result = ({ arr }) => {
 
 const Division = styled.div`
   border: 1px solid gray;
-  height: 44px;
+  min-height: 44px;
+  height: auto;
   line-height: 43px;
 `
 

@@ -8,10 +8,14 @@ const Input = ({setArr, handleTimeout}) => {
     e.preventDefault()
     const arr = input.split(',')
     const numArr = arr.reduce((prev,val) => {
+      console.log(val)
       if (val.trim()){
         let num = Number(val)
         if (!isNaN(num)){
           prev.push(num)
+        } else {
+          alert("숫자를 입력해주세요.")
+          return [];
         }
       }
       return prev
